@@ -143,6 +143,12 @@ processFile() {
                     entityType="key";;
                 "O" )
                     entityType="portal";;
+                "A" )
+                    entityType="bubbly";;
+                "G" )
+                    entityType="gnome";;
+                "H" )
+                    entityType="hound";;
             esac
 
             # If entityType is defined, then place it in the json.
